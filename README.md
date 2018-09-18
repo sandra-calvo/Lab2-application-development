@@ -32,7 +32,7 @@ The purpose of this lab is to guide the user in the data science life cycle from
 # PHASE 6 
 ## Create an application that uses custom ML model 
 
-## Step 10. Create a Node-RED application
+### Step 10. Create a Node-RED application
 
 **Node-RED** is a visual tool for wiring the internet of things - connecting hardware devices, APIs and online services in a new and interesting way. Node-RED provides a browser-based flow editor that makes it easy to wire together flows using the wide range nodes in the palette. Flows can be then deployed to the runtime in a single-click.
 
@@ -71,7 +71,7 @@ Now click Go to your Node-RED flow editor to open the flow editor.
 
 Note: If you get an "Authorization denied" message when deploying your applications make your sure you are logged in. Click on the icon on the top right side of the Node-RED canvas and login with the credentials you created in the previous steps. 
 
-## Step 11: Add new nodes to the Node-RED palette
+### Step 11: Add new nodes to the Node-RED palette
 We are going to add new nodes to the Node-RED palette directly from the Node-RED window. For this lab we need the following nodes:
 
       - node-red-dashboard
@@ -94,7 +94,7 @@ This will prompt a window to confirm the installation. Click on install and wait
 
 After few seconds you will see the new nodes in your Node-RED palette.
 
-## Step 12: Import the Node-RED application flow
+### Step 12: Import the Node-RED application flow
 In this section we will build a simple flow to represent the user interface that will interact with our ML model created in Watson Studio. 
 
 Copy the content of the **ApplicationFlow.json** file. 
@@ -118,7 +118,7 @@ It also possible to change the looks of your user interface in the dashboard tab
 
 Deploy your application changes from the Deploy button on the top right side of the screeen. 
 
-## Step 13. Check your webapp UI! 
+### Step 13. Check your webapp UI! 
 The dashboard nodes added an UI to our Node-RED application. To access the UI go to:
 http://yourAppName.eu-gb.mybluemix.net/ui - UK
 
@@ -132,7 +132,7 @@ Awesome, you web app is ready! Now you can interact with the machine learning mo
 # PHASE 7
 ## Connect Watson Assistant with your ML model 
 
-## Step X. Create Watson Assistant service on IBM Cloud
+### Step X. Create Watson Assistant service on IBM Cloud
 With IBM Watson™ Assistant service you can build a solution that understands natural-language input and uses machine learning to respond to customers in a way that simulates a conversation between humans.
 
 Go to your IBM Cloud account and open the catalog. Look for Watson Assistant service and click on it.
@@ -154,7 +154,7 @@ In the home tab you have videos and tutorials on how to get started building dia
 
 <img src="/images/WA5.png" width="50%" height="50%">
  
-## Step X. Import a workspace
+### Step X. Import a workspace
 The natural-language processing happens inside a workspace, which is a container for all of the artifacts that define the conversation flow for an application.
 
 You can create a workspace and start from scratch or import an existing conversation. 
@@ -168,7 +168,7 @@ When you import a workspace, you can choose to import only the intents and entit
 
 <img src="/images/WA7.png" width="50%" height="50%">
 
-# Step X. Test your dialog
+### Step X. Test your dialog
 As you make changes to your dialog, you can test it at any time to see how it responds to input.
 1.	From the Dialog tab, click the conversation buble icon.
 2.	In the chat panel, type some text and then press Enter.
@@ -179,13 +179,13 @@ Feel free to create new intents for your bot.
 ![](/images/WA8.png?raw=true)
 
 
-# Step X. Get your credentials 
+### Step X. Get your credentials 
 In this example, we will need your Watson Assistant credentials and your workspace ID.
 Go to the deploy tab in the Assistant window. There you will find your workspace ID, username and password. Copy the credentials and save them for later.
 ![](/images/WA9.png?raw=true)
 
 
-## Step X. Build a Node-RED flow to connect with Watson Assistant
+### Step X. Build a Node-RED flow to connect with Watson Assistant
 **Back to Node-RED window**
 
 Copy the content of **bot-ui-flow.json** and import the flow to Node-RED, same way you did in Step X.
@@ -194,7 +194,7 @@ Once you do this your flow should look like this:
 
 Edit the conversation node with your own credentials saved in the previous step. 
 
-## Step X. Check the final result! 
+### Step X. Check the final result! 
 Go back to the UI and talk with your bot! 
 You can ask for sensor information and it will show in the gauge the last measurement. 
 ![](/screenshots/WA11.png?raw=true)
