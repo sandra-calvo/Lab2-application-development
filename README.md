@@ -138,22 +138,22 @@ With IBM Watson™ Assistant service you can build a solution that understands n
 
 Go to your IBM Cloud account and open the catalog. Look for Watson Assistant service and click on it.
 
-<img src="/images/Picture31.png" width="50%" height="50%">
+<img src="/images/WA1.png" width="50%" height="50%">
 
 Choose the region and space where you want the service to be created. Your organization will be filled by default.
 You don't need to change the name if you don't want to, just click on 'Create'. 
-![](/images/Picture32.png?raw=true)
+![](/images/WA2.png?raw=true)
 
 Once the service is created click on 'Launch tool' to access it. 
-![](/images/Picture33.png?raw=true)
+![](/images/WA3.png?raw=true)
  
 Click on Log in with IBM ID and you will automatically access the service. It uses your IBM Cloud ID and password.
 
-<img src="/images/Picture34.png" width="50%" height="50%">
+<img src="/images/WA4.png" width="50%" height="50%">
 
 In the home tab you have videos and tutorials on how to get started building dialoges. Let's move to the Workspaces tab.
 
-<img src="/images/Picture35.png" width="50%" height="50%">
+<img src="/images/WA5.png" width="50%" height="50%">
  
 ## Step X. Import a workspace
 The natural-language processing happens inside a workspace, which is a container for all of the artifacts that define the conversation flow for an application.
@@ -163,11 +163,11 @@ Let's start by importing a conversation. Download the **MLConversation.json** fi
 
 Click on the import icon shown in the image below. 
 
-<img src="/images/Picture36.png" width="50%" height="50%">
+<img src="/images/WA6.png" width="50%" height="50%">
 
 When you import a workspace, you can choose to import only the intents and entities, which can be useful if you want to build a new dialog using the same training data. In this case we will import everything.
 
-<img src="/images/Picture37.png" width="50%" height="50%">
+<img src="/images/WA7.png" width="50%" height="50%">
 
 # Step X. Test your dialog
 As you make changes to your dialog, you can test it at any time to see how it responds to input.
@@ -177,13 +177,13 @@ As you make changes to your dialog, you can test it at any time to see how it re
 
 The chat window indicates what intents and entities were recognized in the input. In the dialog editor pane, the currently active node is highlighted
 Feel free to create new intents for your bot.
-![](/images/Picture38.png?raw=true)
+![](/images/WA8.png?raw=true)
 
 
 # Step X. Get your credentials 
 In this example, we will need your Watson Assistant credentials and your workspace ID.
 Go to the deploy tab in the Assistant window. There you will find your workspace ID, username and password. Copy the credentials and save them for later.
-![](/images/Picture39.png?raw=true)
+![](/images/WA9.png?raw=true)
 
 
 ## Step X. Build a Node-RED flow to connect with Watson Assistant
@@ -191,13 +191,11 @@ Go to the deploy tab in the Assistant window. There you will find your workspace
 
 Copy the content of **bot-ui-flow.json** and import the flow to Node-RED, same way you did in Step X.
 Once you do this your flow should look like this:
-![](/images/Picture41.png?raw=true)
+![](/images/WA10.png?raw=true)
 
 Edit the conversation node with your own credentials saved in the previous step. 
 
 ## Step X. Check the final result! 
 Go back to the UI and talk with your bot! 
 You can ask for sensor information and it will show in the gauge the last measurement. 
-![](/screenshots/Picture42.png?raw=true)
-
-
+![](/screenshots/WA11.png?raw=true)
