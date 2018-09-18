@@ -1,7 +1,8 @@
 # IBM Cloud Workshop :cloud:
+### PART 2 
 
-## Introduction 
-In this guide, you will:
+In this guide:
+  - [Overview](#overview)
   - [Introduction](#introduction)
   - [PHASE 6](#phase-6): Create an application that uses custom ML model 
   - [PHASE 7](#phase-7): Connect Watson Assistant with your ML model 
@@ -11,33 +12,22 @@ In this guide, you will:
 - IBM Cloud account
   - Create a free account www.bluemix.net
 
-# Introduction 
+## Overview 
+
 The purpose of this lab is to guide the user in the data science life cycle from raw data to an application with a machine learning model. All this using IBM Cloud tools. 
+
+Part 1 contains the data science and data analytics part using Watson Studio, Cloud Object Storage and Watson Machine Learning services. https://github.com/sandra-calvo/Lab1-data-science
+
+Part 2 contains the application development side using Node-RED and Watson Assistant services to connect a web application with the machine learning model deployed in part 1. 
+
+## Introduction 
 
 **IBM Cloud** is a suite of cloud computing services from IBM that offers both platform as a service (PaaS) and infrastructure as a service (IaaS). 
 
 <img src="/images/IBMCloud.png" width="90%" height="90%">
 
-**Watson Studio** is an integrated environment designed to make it easy to develop, train, manage models and deploy AI-powered applications. It is a solution delivered on the IBM Cloud. Watson Studio provides a suite of tools for data scientists, application developers and subject matter experts to collaboratively and easily work with data.
-
 ![](/images/Tools.png?raw=true)
 
-In the picture above you can see the collection of IBM Cloud tools we are going to use in this workshop:
-
-      - Watson Studio  - Data science, ML
-      - Cloud Object Storage -  Storage
-      - Watson Machine Learning - ML Model deployment
-      - Node-RED - Application logic
-      - Watson Assistant - Bot service integration 
-
-This lab is the second and last part of the workshop and contains the application development parts, phases 6 & 7. 
-For Phase 1-5 check https://github.com/sandra-calvo/Lab1-data-science 
-
-    - PHASE 1: Data Preparation using Data Refinery
-    - PHASE 2: Data analysis using Modeler
-    - PHASE 3: Create your custom machine learning model
-    - PHASE 4: Deploy ML model
-    - PHASE 5: Data science with Jupyter Notebooks in Python, R or Scala
 
 # PHASE 6 
 ## Create an application that uses custom ML model 
