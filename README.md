@@ -16,11 +16,12 @@ In this guide:
 
 The purpose of this lab is to guide the user in the data science life cycle from raw data to an application with a machine learning model. All this using IBM Cloud tools. 
 
+![](/images/Tools.png?raw=true)
+
 **Part 1:** Data science and data analytics part using Watson Studio, Cloud Object Storage and Watson Machine Learning services. https://github.com/sandra-calvo/Lab1-data-science
 
-**Part 2:** Application development side using Node-RED and Watson Assistant services to connect a web application with the machine learning model deployed in part 1. 
+**Part 2:** Application development section using Node-RED and Watson Assistant services to connect a web application with the machine learning model deployed in Part 1. https://github.com/sandra-calvo/Lab2-application-development
 
-![](/images/Tools.png?raw=true)
 
 ## Introduction 
 
