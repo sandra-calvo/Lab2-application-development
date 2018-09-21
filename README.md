@@ -4,8 +4,8 @@
 In this guide:
   - [Overview](#overview)
   - [Introduction](#introduction)
-  - [PHASE 6](#phase-6): Create an application that uses custom ML model 
-  - [PHASE 7](#phase-7): Connect Watson Assistant with your ML model 
+  - [PHASE 5](#phase-5): Create an application that uses custom ML model 
+  - [PHASE 6](#phase-6): Connect Watson Assistant with your ML model 
 
 
 #### Prerequisites
@@ -29,7 +29,7 @@ The purpose of this lab is to guide the user in the data science life cycle from
 
 <img src="/images/IBMCloud.png" width="90%" height="90%">
 
-# PHASE 6 
+# PHASE 5
 ## Create an application that uses custom ML model 
 
 ### Step 10. Create a Node-RED application
@@ -131,7 +131,7 @@ http://yourAppName.au-syd.mybluemix.net/ui - Sydney
 
 Awesome, you web app is ready! Now you can interact with the machine learning model you created from the webapp. :+1:
 
-# PHASE 7
+# PHASE 6
 ## Connect Watson Assistant with your ML model 
 
 ### Step X. Create Watson Assistant service on IBM Cloud
