@@ -48,7 +48,8 @@ The purpose of this lab is to guide the user in the data science life cycle from
  
 6.	Your application is now staging and will be up and running in a short while. Click 'OVERVIEW' to see information about your application. 
 The application will be ready in a couple of minutes. If you want to check the progeress click on the _LOGS_ icon on the left side menu. 
-![](/images/App3b.png?raw=true)
+
+<img src="/images/App3b.png" width="30%" height="30%">
 
 *Note: If you are using Lite accounts your application will be in an awake mode. That means that if after 10 days your application has not been used IBM will stop it.*
 
