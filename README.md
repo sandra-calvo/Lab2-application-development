@@ -51,13 +51,13 @@ The purpose of this lab is to guide the user in the data science life cycle from
 6.	Your application is now staging and will be up and running in a short while. Click 'OVERVIEW' to see information about your application. 
 The application will be ready in a couple of minutes. If you want to check the progeress click on the _LOGS_ icon on the left side menu. 
 
-<img src="/images/App3b.png" width="10%" height="10%">
+<img src="/images/App3b.png" width="20%" height="20%">
 
 *Note: If you are using Lite accounts your application will be in an awake mode. That means that if after 10 days your application has not been used IBM will stop it.*
 
 7.	When fully staged, click on the _Visit app link_, next to the green or half green circle, this launches the Node-RED main page.
 
-<img src="/images/App4.png" width="80%" height="80%">
+<img src="/images/App4.png" width="90%" height="90%">
   
 8.	Configure your Node-RED editor. In this section, you will set up a username and password to protect your flow. 
 <img src="/images/App5.png" width="40%" height="40%">
@@ -84,15 +84,15 @@ We are going to add new nodes to the Node-RED palette directly from the Node-RED
 
 In the Node-RED window click on the three lines on the top right corner and in the menu, click on the "Manage palette". This will open the node menu where you can add new nodes to your application. 
 
-<img src="/images/App23.png" width="10%" height="10%">
+<img src="/images/App23.png" width="20%" height="20%">
 
 You will see the nodes that are installed by default and if you go to the 'install' tab you can search for any node package and add it directly to your app.
 
-<img src="/images/App24.png" width="20%" height="20%">
+<img src="/images/App24.png" width="30%" height="30%">
              
 Search for the dashboard nodes by writing 'dashboard'. This will return multiple node packages, you need to install the package 'node-red-dashboard'. Find it in the search results and click on install. 
 
-<img src="/images/App25.png" width="20%" height="20%">
+<img src="/images/App25.png" width="30%" height="30%">
  
 This will prompt a window to confirm the installation. Click on install and wait few minutes, the application may require a restart. Click "Done" to close the left side menu. 
 
