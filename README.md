@@ -120,6 +120,7 @@ This flow reads input data from the user and calls the ML model to give a predic
  
 You will need to do some editing on the Watson Machine Learning Node. Go back to the credentials you copied in STEP X.
 **EDIT ML CREDENTIALS**
+Double click on the purple node, Watson machine learning node, and click on the pen 
 
 It also possible to change the looks of your user interface in the dashboard tab. 
 
@@ -128,12 +129,18 @@ It also possible to change the looks of your user interface in the dashboard tab
 Deploy your application changes from the Deploy button on the top right side of the screeen. 
 
 ### Step 13. Check your webapp UI! 
-The dashboard nodes added an UI to our Node-RED application. To access the UI go to:
+The dashboard nodes added an UI to our Node-RED application. It also possible to change the looks of your user interface in the dashboard tab. 
+
+<img src="/images/App30.png" width="80%" height="80%">
+
+To access the UI go to:
 http://yourAppName.eu-gb.mybluemix.net/ui - UK
 
 Remember that if you are in US, Germany Sydney the addredd will look slightly different:
 http://yourAppName.mybluemix.net/ui - US South
+
 http://yourAppName.eu-de.mybluemix.net/ui - Germany
+
 http://yourAppName.au-syd.mybluemix.net/ui - Sydney
 
 Awesome, you web app is ready! Now you can interact with the machine learning model you created from the webapp. :+1:
