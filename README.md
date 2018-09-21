@@ -49,13 +49,13 @@ The purpose of this lab is to guide the user in the data science life cycle from
 6.	Your application is now staging and will be up and running in a short while. Click 'OVERVIEW' to see information about your application. 
 The application will be ready in a couple of minutes. If you want to check the progeress click on the _LOGS_ icon on the left side menu. 
 
-<img src="/images/App3b.png" width="30%" height="30%">
+<img src="/images/App3b.png" width="20%" height="20%">
 
 *Note: If you are using Lite accounts your application will be in an awake mode. That means that if after 10 days your application has not been used IBM will stop it.*
 
 7.	When fully staged, click on the _Visit app link_, next to the green or half green circle, this launches the Node-RED main page.
 
-<img src="/images/App4.png" width="50%" height="50%">
+<img src="/images/App4.png" width="100%" height="100%">
   
 8.	Configure your Node-RED editor. In this section, you will set up a username and password to protect your flow. 
 <img src="/images/App5.png" width="50%" height="50%">
