@@ -116,7 +116,7 @@ Paste the text you copied from the file.
 
 This flow reads input data from the user and calls the ML model to give a prediction in the UI. 
 
-<img src="/images/App29.png" width="50%" height="50%">
+<img src="/images/App29.png" width="100%" height="100%">
  
 You will need to do some editing on the Watson Machine Learning Node. Go back to the credentials you copied in STEP X.
 **EDIT ML CREDENTIALS**
