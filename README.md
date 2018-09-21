@@ -123,7 +123,7 @@ You will need to do some editing on the Watson Machine Learning Node. Go back to
 
 It also possible to change the looks of your user interface in the dashboard tab. 
 
-<img src="/images/App30.png" width="50%" height="50%">
+<img src="/images/App30.png" width="80%" height="80%">
 
 Deploy your application changes from the Deploy button on the top right side of the screeen. 
 
