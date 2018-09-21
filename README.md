@@ -41,10 +41,12 @@ The purpose of this lab is to guide the user in the data science life cycle from
 3.	Select the 'CATALOG' view.
 ![](/images/App1.png?raw=true)
 4.	Locate the Node-RED started service and click on it. 
+
 <img src="/images/App2.png" width="50%" height="50%">
 
 5.	Enter a name for your application, as shown below (host will automatically be completed). The host name must be unique on IBM Cloud, so please choose a name with your company name or initials to try to make a unique name.  Press 'CREATE'. 
-![](/images/App3.png?raw=true)
+
+<img src="/images/App3.png" width="100%" height="100%">
  
 6.	Your application is now staging and will be up and running in a short while. Click 'OVERVIEW' to see information about your application. 
 The application will be ready in a couple of minutes. If you want to check the progeress click on the _LOGS_ icon on the left side menu. 
@@ -61,6 +63,7 @@ The application will be ready in a couple of minutes. If you want to check the p
 <img src="/images/App5.png" width="50%" height="50%">
 
 9.	Write an username and a password of your choice and click 'Next'. Remember that it does not have to be related to your IBM Cloud ID. 
+
 <img src="/images/App6.png" width="50%" height="50%">
  
 #### Your Node-RED flow is all set! Enter your credentials to access the editor.
@@ -77,6 +80,7 @@ Note: If you get an "Authorization denied" message when deploying your applicati
 We are going to add new nodes to the Node-RED palette directly from the Node-RED window. For this lab we need the following nodes:
 
       - node-red-dashboard
+      - node-red-contrib-watson-machine-learning
 
 In the Node-RED window click on the three lines on the top right corner and in the menu, click on the "Manage palette". This will open the node menu where you can add new nodes to your application. 
 
@@ -96,6 +100,8 @@ This will prompt a window to confirm the installation. Click on install and wait
 
 After few seconds you will see the new nodes in your Node-RED palette.
 
+**Remember** to repeat this process for the Machine Learning nodes: node-red-contrib-watson-machine-learning.
+
 ### Step 12: Import the Node-RED application flow
 In this section we will build a simple flow to represent the user interface that will interact with our ML model created in Watson Studio. 
 
@@ -108,10 +114,11 @@ Paste the text you copied from the file.
 
 <img src="/images/App28.png" width="50%" height="50%">
 
-The flow will create a new flow window named 'ML-UI'. This flow reads input data from the user and calls the ML model to give a prediction in the UI. 
-![](/images/App29.png?raw=true)
+This flow reads input data from the user and calls the ML model to give a prediction in the UI. 
+
+<img src="/images/App29.png" width="50%" height="50%">
  
-You will need to do some editing on few nodes.
+You will need to do some editing on the Watson Machine Learning Node. Go back to the credentials you copied in STEP X.
 **EDIT ML CREDENTIALS**
 
 It also possible to change the looks of your user interface in the dashboard tab. 
