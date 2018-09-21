@@ -47,11 +47,12 @@ The purpose of this lab is to guide the user in the data science life cycle from
 ![](/images/App3.png?raw=true)
  
 6.	Your application is now staging and will be up and running in a short while. Click 'OVERVIEW' to see information about your application. 
-*Note: If you are using Lite accounts your application will be in an awake mode. That means that if after 10 days your application has not been used IBM will stop it.*
-![](/images/PictureX.png?raw=true)
-
-7.	When fully staged, click on the View app link, next to the green or half green circle, this launches the Node-RED main page. 
+The application will be ready in a couple of minutes. If you want to check the progeress click on the _LOGS_ icon on the left side menu. 
 ![](/images/App3b.png?raw=true)
+
+*Note: If you are using Lite accounts your application will be in an awake mode. That means that if after 10 days your application has not been used IBM will stop it.*
+
+7.	When fully staged, click on the _Visit app link_, next to the green or half green circle, this launches the Node-RED main page.
 
 <img src="/images/App4.png" width="50%" height="50%">
   
