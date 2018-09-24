@@ -121,7 +121,7 @@ This flow reads input data from the user and calls the ML model to give a predic
 You will need to do some editing on the Watson Machine Learning Node. Go back to the credentials you copied in STEP X.
 If you can't find the credentials go back to IBM Cloud, click on your dashboard and open the Watson Machine Learning service. 
 
-<img src="/images/App33.png" width="80%" height="80%">
+<img src="/images/App33.png" width="100%" height="100%">
 
 Click on _Service Credentials_ and _View credentials_. Copy the credentials. 
 
@@ -129,13 +129,13 @@ Click on _Service Credentials_ and _View credentials_. Copy the credentials.
 
 Double click on the purple node, Watson machine learning node, and click on the pencil to add your credentials. 
 
-<img src="/images/App32.png" width="80%" height="80%">
+<img src="/images/App32.png" width="50%" height="50%">
 
 Add your Username, Password, Host, Instance ID and Access key. 
 
 It also possible to change the looks of your user interface in the dashboard tab. 
 
-Deploy your application changes from the Deploy button on the top right side of the screeen. 
+Deploy your application changes from the **Deploy** button on the top right side of the screeen. 
 
 ### Step 13. Check your webapp UI! 
 The dashboard nodes added an UI to our Node-RED application. It also possible to change the looks of your user interface in the dashboard tab. 
@@ -152,7 +152,8 @@ http://yourAppName.eu-de.mybluemix.net/ui - Germany
 
 http://yourAppName.au-syd.mybluemix.net/ui - Sydney
 
-Awesome, you web app is ready! Now you can interact with the machine learning model you created from the webapp. :+1:
+**Fantastic! Your web app is ready.** 
+Now you can interact with the machine learning model you created from the webapp. :+1:
 
 # PHASE 6
 ## Connect Watson Assistant with your ML model 
@@ -169,7 +170,8 @@ You don't need to change the name if you don't want to, just click on 'Create'.
 ![](/images/WA2.png?raw=true)
 
 Once the service is created click on 'Launch tool' to access it. 
-![](/images/WA3.png?raw=true)
+
+<img src="/images/WA3.png" width="60%" height="60%">
  
 Click on Log in with IBM ID and you will automatically access the service. It uses your IBM Cloud ID and password.
 
@@ -204,7 +206,7 @@ Feel free to create new intents for your bot.
 ![](/images/WA8.png?raw=true)
 
 
-### Step 17. Get your credentials 
+### Step 17. Get Watson Assistant credentials 
 In this example, we will need your Watson Assistant credentials and your workspace ID.
 Go to the deploy tab in the Assistant window. There you will find your workspace ID, username and password. Copy the credentials and save them for later.
 ![](/images/WA9.png?raw=true)
@@ -222,4 +224,5 @@ Edit the conversation node with your own credentials saved in the previous step.
 ### Step 19. Check the final result! 
 Go back to the UI and talk with your bot! 
 You can ask to connect/start the model and the prediction result will be shown in the gauge graph. 
+
 ![](/screenshots/WA15.png?raw=true)
