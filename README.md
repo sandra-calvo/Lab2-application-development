@@ -207,22 +207,39 @@ Feel free to create new intents for your bot.
 
 
 ### Step 17. Get Watson Assistant credentials 
-In this example, we will need your Watson Assistant credentials and your workspace ID.
-Go to the deploy tab in the Assistant window. There you will find your workspace ID, username and password. Copy the credentials and save them for later.
+Since we will need your Watson Assistant credentials and your workspace ID in the next step, this is a good moment to save them.Go to the deploy tab in the Assistant window. There you will find your workspace ID, username and password. Copy the credentials and save them for later.
 ![](/images/WA9.png?raw=true)
 
 
 ### Step 18. Build a Node-RED flow to connect with Watson Assistant
 **Back to Node-RED window**
 
-Copy the content of **bot-ui-flow.json** and import the flow to Node-RED, same way you did in Step X.
-Once you do this your flow should look like this:
-![](/images/WA10.png?raw=true)
+Copy the content of **bot_conversation.json** and import the flow to Node-RED, same way you did in Step 15.
+This is the part we are importing:
 
-Edit the conversation node with your own credentials saved in the previous step. 
+<img src="/images/WA10.png" width="100%" height="100%">
+
+Connect the output of the orange node called "ML input" to the input of the purple node from the previous flow. 
+Once you do connect the dots your flow should look like this:
+
+<img src="/images/WA11.png" width="100%" height="100%">
+
+Double click on the conversation node to edit the node with your own credentials saved in the previous step. 
+Add your username, passworkd and workspace id and click Done.
+
+<img src="/images/WA12.png" width="70%" height="70%">
+
+Click on the _Deploy_ button to save the changes in your application.
 
 ### Step 19. Check the final result! 
 Go back to the UI and talk with your bot! 
 You can ask to connect/start the model and the prediction result will be shown in the gauge graph. 
 
+Remember, to go back to your web app (in UK region)
+http://yourAppName.eu-gb.mybluemix.net/ui - UK
+
 ![](/images/WA15.png?raw=true)
+
+
+**Congrats!** You finished the lab. :clap:
+Here, take a :lollipop: and enjoy your awesomeness!
