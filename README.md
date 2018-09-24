@@ -227,7 +227,7 @@ Once you do connect the dots your flow should look like this:
 Double click on the conversation node to edit the node with your own credentials saved in the previous step. 
 Add your username, passworkd and workspace id and click Done.
 
-<img src="/images/WA12.png" width="70%" height="70%">
+<img src="/images/WA12.png" width="40%" height="40%">
 
 Click on the _Deploy_ button to save the changes in your application.
 
