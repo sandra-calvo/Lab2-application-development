@@ -212,5 +212,5 @@ Edit the conversation node with your own credentials saved in the previous step.
 
 ### Step X. Check the final result! 
 Go back to the UI and talk with your bot! 
-You can ask for sensor information and it will show in the gauge the last measurement. 
-![](/screenshots/WA11.png?raw=true)
+You can ask to connect/start the model and the prediction result will be shown in the gauge graph. 
+![](/screenshots/WA15.png?raw=true)
