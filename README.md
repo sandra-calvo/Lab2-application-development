@@ -225,4 +225,4 @@ Edit the conversation node with your own credentials saved in the previous step.
 Go back to the UI and talk with your bot! 
 You can ask to connect/start the model and the prediction result will be shown in the gauge graph. 
 
-![](/screenshots/WA15.png?raw=true)
+![](/images/WA15.png?raw=true)
