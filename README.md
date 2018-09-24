@@ -74,8 +74,6 @@ Now click Go to your Node-RED flow editor to open the flow editor.
 
 10.	When using Node-RED we build our apps using this graphical editor interface to wire together the blocks we need. We can simply drag and drop the blocks from the left menu into the workspace in the center of the screen and connect them to create a new flow. 
 
-Note: If you get an "Authorization denied" message when deploying your applications make your sure you are logged in. Click on the icon on the top right side of the Node-RED canvas and login with the credentials you created in the previous steps. 
-
 ### Step 11: Add new nodes to the Node-RED palette
 We are going to add new nodes to the Node-RED palette directly from the Node-RED window. For this lab we need the following nodes:
 
@@ -105,7 +103,7 @@ After few seconds you will see the new nodes in your Node-RED palette.
 ### Step 12: Import the Node-RED application flow
 In this section we will build a simple flow to represent the user interface that will interact with our ML model created in Watson Studio. 
 
-Copy the content of the **ApplicationFlow.json** file. 
+Copy the content of the **ML_form_UI.json** file. (Located in the Box folder https://ibm.box.com/v/workshop260918)
 Import the flow by simply clickcing on the 3 white lines on the top right corner of the Node-RED window.  Import - Clipboard.
 
 <img src="/images/App27.png" width="50%" height="50%">
@@ -118,7 +116,7 @@ This flow reads input data from the user and calls the ML model to give a predic
 
 <img src="/images/App29.png" width="100%" height="100%">
  
-You will need to do some editing on the Watson Machine Learning Node. Go back to the credentials you copied in STEP X.
+You will need to do some editing on the Watson Machine Learning Node. Go back to the credentials you copied in lab 1 STEP 8.
 If you can't find the credentials go back to IBM Cloud, click on your dashboard and open the Watson Machine Learning service. 
 
 <img src="/images/App33.png" width="100%" height="100%">
@@ -127,13 +125,13 @@ Click on _Service Credentials_ and _View credentials_. Copy the credentials.
 
 <img src="/images/App34.png" width="100%" height="100%">
 
-Double click on the purple node, Watson machine learning node, and click on the pencil to add your credentials. 
+Back in Node-REd, double click on the purple node, Watson machine learning node, and click on the pencil to add your credentials. 
 
 <img src="/images/App32.png" width="50%" height="50%">
 
 Add your Username, Password, Host, Instance ID and Access key. 
 
-It also possible to change the looks of your user interface in the dashboard tab. 
+Note that it is also possible to change the looks of your user interface in the dashboard tab. 
 
 Deploy your application changes from the **Deploy** button on the top right side of the screeen. 
 
@@ -175,9 +173,10 @@ Once the service is created click on 'Launch tool' to access it.
  
 Click on Log in with IBM ID and you will automatically access the service. It uses your IBM Cloud ID and password.
 
-<img src="/images/WA4.png" width="50%" height="50%">
+<img src="/images/WA4.png" width="30%" height="30%">
 
-In the home tab you have videos and tutorials on how to get started building dialoges. Let's move to the Workspaces tab.
+In the home tab you have videos and tutorials on how to get started building dialoges. Feel free to explore them. 
+Let's move to the Workspaces tab.
 
 <img src="/images/WA5.png" width="50%" height="50%">
  
@@ -185,11 +184,11 @@ In the home tab you have videos and tutorials on how to get started building dia
 The natural-language processing happens inside a workspace, which is a container for all of the artifacts that define the conversation flow for an application.
 
 You can create a workspace and start from scratch or import an existing conversation. 
-Let's start by importing a conversation. Download the **MLConversation.json** file located in this repository. 
+Let's start by importing a conversation. Download the **bot_conversation.json** file located in the Box folder. 
 
 Click on the import icon shown in the image below. 
 
-<img src="/images/WA6.png" width="50%" height="50%">
+<img src="/images/WA6.png" width="30%" height="30%">
 
 When you import a workspace, you can choose to import only the intents and entities, which can be useful if you want to build a new dialog using the same training data. In this case we will import everything.
 
@@ -205,7 +204,6 @@ The chat window indicates what intents and entities were recognized in the input
 Feel free to create new intents for your bot.
 ![](/images/WA8.png?raw=true)
 
-
 ### Step 17. Get Watson Assistant credentials 
 Since we will need your Watson Assistant credentials and your workspace ID in the next step, this is a good moment to save them.Go to the deploy tab in the Assistant window. There you will find your workspace ID, username and password. Copy the credentials and save them for later.
 ![](/images/WA9.png?raw=true)
@@ -214,8 +212,10 @@ Since we will need your Watson Assistant credentials and your workspace ID in th
 ### Step 18. Build a Node-RED flow to connect with Watson Assistant
 **Back to Node-RED window**
 
-Copy the content of **bot_conversation.json** and import the flow to Node-RED, same way you did in Step 15.
-This is the part we are importing:
+Copy the content of **ML_bot_UI.json** and import the flow to Node-RED, same way you did in Step 15.
+The file is located in the Box folder. 
+
+This is the flow we are importing:
 
 <img src="/images/WA10.png" width="100%" height="100%">
 
@@ -240,6 +240,8 @@ http://yourAppName.eu-gb.mybluemix.net/ui - UK
 
 ![](/images/WA15.png?raw=true)
 
+At this moment the bot is very basic. It can tell you about IBM Cloud and Watson Studio and can connect with the ML model created in Lab 1. 
+To connec with the model write: "Start the model".
 
 **Congrats!** You finished the lab. :clap:
 Here, take a :lollipop: and enjoy your awesomeness!
