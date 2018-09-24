@@ -119,12 +119,21 @@ This flow reads input data from the user and calls the ML model to give a predic
 <img src="/images/App29.png" width="100%" height="100%">
  
 You will need to do some editing on the Watson Machine Learning Node. Go back to the credentials you copied in STEP X.
-**EDIT ML CREDENTIALS**
-Double click on the purple node, Watson machine learning node, and click on the pen 
+If you can't find the credentials go back to IBM Cloud, click on your dashboard and open the Watson Machine Learning service. 
+
+<img src="/images/App33.png" width="80%" height="80%">
+
+Click on _Service Credentials_ and _View credentials_. Copy the credentials. 
+
+<img src="/images/App34.png" width="100%" height="100%">
+
+Double click on the purple node, Watson machine learning node, and click on the pencil to add your credentials. 
+
+<img src="/images/App32.png" width="80%" height="80%">
+
+Add your Username, Password, Host, Instance ID and Access key. 
 
 It also possible to change the looks of your user interface in the dashboard tab. 
-
-<img src="/images/App30.png" width="80%" height="80%">
 
 Deploy your application changes from the Deploy button on the top right side of the screeen. 
 
@@ -148,7 +157,7 @@ Awesome, you web app is ready! Now you can interact with the machine learning mo
 # PHASE 6
 ## Connect Watson Assistant with your ML model 
 
-### Step X. Create Watson Assistant service on IBM Cloud
+### Step 14. Create Watson Assistant service on IBM Cloud
 With IBM Watson™ Assistant service you can build a solution that understands natural-language input and uses machine learning to respond to customers in a way that simulates a conversation between humans.
 
 Go to your IBM Cloud account and open the catalog. Look for Watson Assistant service and click on it.
@@ -170,7 +179,7 @@ In the home tab you have videos and tutorials on how to get started building dia
 
 <img src="/images/WA5.png" width="50%" height="50%">
  
-### Step X. Import a workspace
+### Step 15. Import a workspace
 The natural-language processing happens inside a workspace, which is a container for all of the artifacts that define the conversation flow for an application.
 
 You can create a workspace and start from scratch or import an existing conversation. 
@@ -184,7 +193,7 @@ When you import a workspace, you can choose to import only the intents and entit
 
 <img src="/images/WA7.png" width="50%" height="50%">
 
-### Step X. Test your dialog
+### Step 16. Test your dialog
 As you make changes to your dialog, you can test it at any time to see how it responds to input.
 1.	From the Dialog tab, click the conversation buble icon.
 2.	In the chat panel, type some text and then press Enter.
@@ -195,13 +204,13 @@ Feel free to create new intents for your bot.
 ![](/images/WA8.png?raw=true)
 
 
-### Step X. Get your credentials 
+### Step 17. Get your credentials 
 In this example, we will need your Watson Assistant credentials and your workspace ID.
 Go to the deploy tab in the Assistant window. There you will find your workspace ID, username and password. Copy the credentials and save them for later.
 ![](/images/WA9.png?raw=true)
 
 
-### Step X. Build a Node-RED flow to connect with Watson Assistant
+### Step 18. Build a Node-RED flow to connect with Watson Assistant
 **Back to Node-RED window**
 
 Copy the content of **bot-ui-flow.json** and import the flow to Node-RED, same way you did in Step X.
@@ -210,7 +219,7 @@ Once you do this your flow should look like this:
 
 Edit the conversation node with your own credentials saved in the previous step. 
 
-### Step X. Check the final result! 
+### Step 19. Check the final result! 
 Go back to the UI and talk with your bot! 
 You can ask to connect/start the model and the prediction result will be shown in the gauge graph. 
 ![](/screenshots/WA15.png?raw=true)
