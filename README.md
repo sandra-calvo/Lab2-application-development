@@ -116,8 +116,8 @@ This flow reads input data from the user and calls the ML model to give a predic
 
 <img src="/images/App29.png" width="100%" height="100%">
  
-You will need to do some editing on the Watson Machine Learning Node. Go back to the credentials you copied in lab 1 STEP 8.
-If you can't find the credentials go back to IBM Cloud, click on your dashboard and open the Watson Machine Learning service. 
+You will need to do some editing on the Watson Machine Learning Node. 
+Go to IBM Cloud, (www.bluemix.net) click on your dashboard and open the Watson Machine Learning service. 
 
 <img src="/images/App33.png" width="100%" height="100%">
 
